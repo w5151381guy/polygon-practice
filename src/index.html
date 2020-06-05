@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <script src="/dist/bundle.js"></script>
+    <script src="/dist/vendor.js"></script>
+  </head>
+
+  <style>
+    body > div {
+      margin-bottom: 8px;
+    }
+    .inputArea > div {
+      margin-bottom: 8px;
+    }
+  </style>
+
+  <body>
+    <div class="inputArea">
+      <div class="x">
+        <div class="inputTitle">請輸入多邊形X座標</div>
+        <input type="text" />
+      </div>
+      <div class="y">
+        <div class="inputTitle">請輸入多邊形Y座標</div>
+        <input type="text" />
+      </div>
+      <div class="btn-area">
+        <button id="submit">輸入座標</button>
+      </div>
+    </div>
+    <div class="points">
+      <span>您輸入的座標為：</span>
+    </div>
+    <div class="btn-area">
+      <button id="drawChart">開始畫圖</button>
+    </div>
+    <div id="container"></div>
+  </body>
+</html>
